@@ -18,6 +18,8 @@ body {
   transform-style: preserve-3d;
   transform: perspective(1000px) rotateY(0deg);
   transition: transform 0.7s;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+
 }
 
 .image-container span {
