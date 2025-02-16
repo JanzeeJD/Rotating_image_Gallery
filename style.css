@@ -43,6 +43,9 @@ body {
 .btn-container {
   position: relative;
   width: 80%;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .btn {
