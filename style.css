@@ -73,3 +73,9 @@ body {
 #next {
   right: 20%;
 }
+@media (max-width: 500px) {
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
