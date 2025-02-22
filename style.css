@@ -8,6 +8,7 @@ body {
   height: 100vh;
   justify-content: center;
   background-color: black;
+  background: linear-gradient(to bottom, black, #111);
   overflow: hidden;
 }
 
@@ -38,7 +39,9 @@ body {
   width: 100%;
   border-radius: 10px;
   transition: transform 0.3s;
-
+  :hover {
+    transform: scale(1.05);
+  }  
 
 }
 
